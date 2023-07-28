@@ -39,7 +39,7 @@ display(Mario_eu_wii)
 
 outlook = win32.Dispatch('outlook.application')
 mail = outlook.CreateItem(0)
-mail.To = 'caio.santos.roque1@gmail.com'
+mail.To = 'emaililustrativo@gmail.com'
 mail.Subject = 'Relatorio de vendas'
 mail.HTMLBody = f''' 
 <p>Prezados,</p>
